@@ -43,8 +43,9 @@ Open `http://localhost:3000` in your browser.
 ├── app.js              # Scroll spy, theme toggle, spotlight
 ├── base.css            # CSS reset
 ├── assets/
-│   ├── headshot.jpg    # Profile photo
-│   └── og-image.png    # Open Graph preview image
+│   ├── headshot.jpg        # Profile photo
+│   ├── og-image.png        # Open Graph preview image
+│   └── EricLin_Resume.pdf  # Resume linked from the sidebar
 └── README.md
 ```
 
@@ -54,7 +55,7 @@ Open `http://localhost:3000` in your browser.
 
 **Content** is all in index.html — no CMS, no markdown files. Edit the HTML directly.
 
-**Resume link** points to a Google Drive PDF. Update the `href` in the sidebar socials section.
+**Resume link** points to `assets/EricLin_Resume.pdf`. To update it, replace that file with a new PDF of the same name.
 
 ## Deploy
 
